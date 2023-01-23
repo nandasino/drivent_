@@ -18,3 +18,19 @@ export type RequestError = {
   name: string,
   message: string,
 };
+
+export type AddressResponse = {
+  logradouro: string,
+  complemento: string,
+  bairro: string,
+  localidade: string,
+  uf: string,
+};
+
+export type AddressType = {
+  logradouro: string,
+  complemento: string,
+  bairro: string,
+  cidade: string,
+  uf: string,
+};
